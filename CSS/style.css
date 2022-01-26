@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Roboto:wght@700&display=swap');
+
+:root {
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-lato: 'Lato', sans-serif;
+}
+
+body {
+    background: #ecf4fe;
+}
+
+/* nav */
+
+.navbar {
+    font-family: var(--font-montserrat);
+    font-weight:bold;
+    color: #051a40;
+    font-size: 0.9rem;
+
+}
+.navbar-brand {
+    color: initial;
+    font-weight: bolder;
+    font-family: var(--font-roboto);
+}
+
+.navbar-brand i {
+    background: #348aff;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+
+.navbar .collapse .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .collapse .navbar-nav a{
+    color: initial;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 0.8em;
+}
+
+.btn .login, .rigister {
+    padding: 0.6rem 0 0.6rem 0;
+}
+
+.btn .login {
+    color: initial;
+}
+
+/* header-text */
+
+.header-text {
+    padding: 5rem 0 5rem 0;
+}
+
+.header-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: var(--font-roboto);
+    color: #051a40;
+}
+
+.header-text h5 {
+    color: #348aff;
+    background: #ffffff;
+    display: inline-block;
+    padding: 0.4rem;
+}
+
+.header-text .header-text-right p {
+    padding: 1rem 0 1rem 0;
+    color: #6882a5;
+    font-family: var(--font-lato);
+}
+
+.header-text .header-text-right .btn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: var(--font-montserrat);
+}
