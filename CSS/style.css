@@ -85,3 +85,44 @@ body {
     padding: 1rem 2rem 1rem 2rem;
     font-family: var(--font-montserrat);
 }
+
+
+/* header video */
+
+.header-video .video-number h2 {
+    font-size: 2.5rem;
+    font-weight: 650;
+    text-align: center;
+    color: #348aff;
+}
+
+.header-video .video-number p {
+    color: #6882a5;
+    text-align: center;
+}
+
+/* feature course */
+
+   .feature-course-head {
+       margin: 6rem 0 5rem 0;
+   }
+   
+   .feature-course-head h1 {
+       text-align: center;
+       margin-bottom: 1rem;
+       font-weight: bold;
+   }
+
+   .feature-course-head p {
+       text-align: center;
+       margin: 0 15rem 0 15rem;
+       color:  #6882a5;
+   }
+
+   /* card */
+
+   .card img {
+       margin: 5px;
+       width: 100%;
+
+   }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Template</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 
 <body>
@@ -33,8 +33,8 @@
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <div class="mr-auto"></div>
+                    <div class="row collapse navbar-collapse " id="navbarNavDropdown">
+                        <div class="mr-auto col-2"></div>
                         <ul class="navbar-nav col-7">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home</a>
@@ -79,12 +79,48 @@
 
             <!-- header video -->
 
-           
-            <div class="col-10"><img src="../img/headervid.png" alt=""></div>
-            <div class="col-2">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <div class="header-video">
+                <div class="row">
+                    <img class="video col-md-10" src="/img/headervid.png">
+                    <div class="video-number col-md-2 d-flex">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>15+</h2>
+                                <p>Totel branches opened last year</p>
+                            </div>
+                            <div class="col-12">
+                                <h2>5K+</h2>
+                                <p>New students in last 30 days</p>
+                            </div>
+                            <div class="col-12">
+                                <h2>1.5K+</h2>
+                                <p>Totel branches opened last year</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-           
+
+            <!-- Features Courses -->
+
+            <div class="feature-course">
+                <div class="feature-course-head">
+                    <h1>Our Feature Courses</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio repellendus excepturi
+                        ipsa sit nulla molestias corrupti asperiores similique quos maxime accusantium!</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
         </div>
     </header>
 </body>
