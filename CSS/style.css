@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #ecf4fe;
+    background: #afccee;
 }
 
 /* nav */
@@ -47,8 +47,9 @@ body {
     border-radius: 0.8em;
 }
 
-.btn .login, .rigister {
+.btn .rigister {
     padding: 0.6rem 0 0.6rem 0;
+    width: 70px !important;
 }
 
 .btn .login {
@@ -58,7 +59,8 @@ body {
 /* header-text */
 
 .header-text {
-    padding: 5rem 0 5rem 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .header-text h1 {
@@ -89,6 +91,13 @@ body {
 
 /* header video */
 
+.header-video .video {
+    border-radius: 4%;
+}
+
+.header-video .video-number {
+    margin-top: 2.5rem;
+}
 .header-video .video-number h2 {
     font-size: 2.5rem;
     font-weight: 650;
