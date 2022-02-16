@@ -130,8 +130,37 @@ body {
 
    /* card */
 
-   .card img {
-       margin: 5px;
-       width: 100%;
-
+   .feature-course .card {
+       margin-bottom: 2rem;
+       padding: 0;
+       border-radius: 1rem;
    }
+
+   .feature-course .card img {
+       padding: 0.5rem;
+   }
+
+   .feature-course .card .card-body .btn {
+       font-weight: lighter;
+   }
+
+   .feature-course .card .card-body .money {
+       text-align: right;
+       color: #4a97ff;
+   }
+
+   .feature-course .card .card-body .card-title-under {
+       color: #6882a5;
+   }
+
+   .feature-course .card .card-body .card-title-under .under-left {
+    text-align: right !important;
+    }
+
+      
+    .feature-course .card .card-body .card-rating .fa-long-arrow-right {
+        font-size: 1.5rem;
+        background: #afccee;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
