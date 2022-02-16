@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #afccee;
+    background: #ecf4fe;
 }
 
 /* nav */
@@ -157,10 +157,18 @@ body {
     text-align: right !important;
     }
 
-      
+    .feature-course .card .card-body .card-rating {
+        margin-top: 1rem;
+        padding: 0;
+    }
+    
+    .feature-course .card .card-body .card-rating .rate {
+        margin-right: 5rem;
+    }
+
     .feature-course .card .card-body .card-rating .fa-long-arrow-right {
         font-size: 1.5rem;
-        background: #afccee;
+        background: #ecf4fe;
         padding: 1rem;
         border-radius: 2rem;
     }
