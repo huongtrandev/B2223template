@@ -112,8 +112,12 @@ body {
 
 /* feature course */
 
+    .feature-course {
+        margin: 5rem 0 5rem 0;
+    }
+
    .feature-course-head {
-       margin: 6rem 0 5rem 0;
+       margin: 0rem 0 5rem 0;
    }
    
    .feature-course-head h1 {
@@ -179,4 +183,77 @@ body {
         background: #ecf4fe;
         padding: 1rem;
         border-radius: 2rem;
+    }
+
+    /* statis */
+
+    .statis .sta-left h1 {
+        font-weight: bold;
+    }
+
+    .statis .sta-left .sta-num h1 {
+        font-weight: bold;
+        color:#4a97ff;
+        text-align: center; 
+    }
+
+    .statis .sta-left .sta-num p {
+        font-weight: bold;
+        text-align: center;       
+    }
+
+    .statis .sta-left .sta-text {
+        margin: 2rem auto 2rem auto;
+        color: #6882a5;    
+    }
+
+    .sta-right .sta-right-head-1 i {
+        padding: 1rem;
+        background: rgb(255, 230, 7);
+        color:white;
+        border-radius: 0.6rem;
+    }
+
+    .sta-right .sta-right-module-1 .sta-right-head-1 .col-3 {
+        font-weight: bold;
+        padding-top: 1%;
+    }
+
+    .sta-right .sta-right-module-1 .sta-right-text {
+        margin: 1rem auto 2rem auto;
+        color: #6882a5;
+    }
+
+    .sta-right .sta-right-head-2 i {
+        padding: 1rem;
+        background: rgb(207, 10, 214);
+        color:white;
+        border-radius: 0.6rem;
+    }
+
+    .sta-right .sta-right-module-2 .sta-right-head-2 .col-4 {
+        font-weight: bold;
+        padding-top: 1%;
+    }
+
+    .sta-right .sta-right-module-2 .sta-right-text {
+        margin: 1rem auto 2rem auto;
+        color: #6882a5;
+    }
+
+    .sta-right .sta-right-head-3 i {
+        padding: 1rem;
+        background: #4a97ff;
+        color:white;
+        border-radius: 0.6rem;
+    }
+
+    .sta-right .sta-right-module-3 .sta-right-head-3 .col-3 {
+        font-weight: bold;
+        padding-top: 1%;
+    }
+
+    .sta-right .sta-right-module-3 .sta-right-text {
+        margin: 1rem auto 2rem auto;
+        color: #6882a5;
     }
