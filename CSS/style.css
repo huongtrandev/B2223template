@@ -130,8 +130,11 @@ body {
 
    /* card */
 
+   .feature-course .card-outline {
+       padding: 1rem 0.5rem 1rem 0.5rem;
+   }
+
    .feature-course .card {
-       margin-bottom: 2rem;
        padding: 0;
        border-radius: 1rem;
    }
@@ -160,10 +163,15 @@ body {
     .feature-course .card .card-body .card-rating {
         margin-top: 1rem;
         padding: 0;
+        color: #6882a5;
     }
     
     .feature-course .card .card-body .card-rating .rate {
         margin-right: 5rem;
+    }
+
+    .feature-course .card .card-body .card-rating .rate .fa-star{
+        color: #4a97ff;
     }
 
     .feature-course .card .card-body .card-rating .fa-long-arrow-right {
